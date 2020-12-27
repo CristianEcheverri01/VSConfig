@@ -1,0 +1,160 @@
+{
+	//editor
+	"editor.fontFamily": "'Hack NF', Consolas, monospace",
+	"editor.suggestSelection": "first",
+	"editor.mouseWheelZoom": true,
+	"editor.formatOnSave": true,
+	"editor.renderIndentGuides": false,
+
+	//color comments
+	"editor.tokenColorCustomizations": {
+		"comments": "#dddd",
+		"textMateRules": [
+			{
+				"scope":["comment"],
+				"settings": {
+					"foreground": "#888",
+					"fontStyle": "italic"
+				}
+			},
+		]
+	},
+
+	//window
+	"window.zoomLevel": 1,
+	"window.menuBarVisibility": "toggle",
+
+	//workbench
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+	//workbench theme
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Andromeda Italic Bordered",
+	//workbench custom color 
+	"workbench.colorCustomizations": {
+		//activityBar
+		"activityBarBadge.background": "#ff5733",
+		"activityBar.activeBackground": "#5500ff25",
+		"activityBar.inactiveForeground": "#444",
+		"activityBar.activeBorder": "#ff5733",
+		"activityBar.foreground": "#ddd",
+
+		//scrollBar
+		"scrollbarSlider.activeBackground": "#8800ff57",
+
+		//editor
+		"editor.selectionBackground": "#8800ff25",
+		"editor.selectionHighlightBackground": "#ff573350",
+		"editor.findMatchBorder": "#8800ff50",
+		"editor.findMatchBackground": "#8800ff50",
+		"editor.findMatchHighlightBackground": "#8800ff50",
+		"editor.hoverHighlightBackground": "#ff573335",
+		"editor.lineHighlightBackground": "#8800ff25",
+		//editor group
+		"editorGroup.dropBackground": "#8800ff15",
+		//editor bracket
+		"editorBracketMatch.background": "#ff573395",
+		//editor widget
+		"editorSuggestWidget.highlightForeground": "#8800ff",
+		"editorWidget.resizeBorder": "#ff5733",
+		"editorWidget.border": "#8800ff",
+		"editorWidget.background": "#8800ff25",
+		//editor line number
+		"editorLineNumber.activeForeground": "#8800ff",
+		"editorLineNumber.foreground": "#8800ff80",
+		//editor cursor
+		"editorCursor.foreground": "#ff5733",
+
+		//panel
+		"panel.background": "#8800ff10",
+		"panelTitle.activeBorder": "#8800ff",
+
+		//settings
+		"settings.modifiedItemIndicator": "#8800ff",
+		"settings.headerForeground": "#8800ff",
+
+		//tab
+		"tab.activeBackground": "#8800ff25",
+		"tab.activeForeground": "#ddd",
+		"tab.activeBorder": "#ff5733",
+
+		//list and tree
+		"tree.indentGuidesStroke": "#8800ffcc",
+		"list.hoverBackground": "#8800ff25",
+		"list.inactiveSelectionBackground": "#8800ff25",
+		"list.activeSelectionForeground": "#8800ff",
+		"list.inactiveSelectionForeground": "#8800ff",
+		"list.highlightForeground": "#6900ff",
+
+		//status bar
+		"statusBarItem.remoteBackground": "#8800ff",
+		"statusBarItem.hoverBackground": "#8800ff50",
+
+		"textLink.foreground": "#8800ff",
+		"progressBar.background": "#8800ff",
+		"pickerGroup.foreground": "#8800ff",
+		"breadcrumb.activeSelectionForeground": "#8800ff",
+		"menu.selectionForeground": "#8800ff",
+		"menubar.selectionForeground": "#8800ff",
+		"selection.background": "#8800ff"
+	},
+
+	//prettier
+	"prettier.arrowParens": "avoid",
+	"prettier.bracketSpacing": true,
+	"prettier.embeddedLanguageFormatting": "auto",
+	"prettier.htmlWhitespaceSensitivity": "css",
+	"prettier.insertPragma": false,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 90,
+	"prettier.proseWrap": "preserve",
+	"prettier.quoteProps": "as-needed",
+	"prettier.requirePragma": false,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "es5",
+	"prettier.vueIndentScriptAndStyle": false,
+
+	//lang
+	//json
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	//js
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	//dart
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": false,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+
+	//extensions
+	//explorer
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+
+	//liveshare
+	"liveshare.anonymousGuestApproval": "accept",
+
+	//window opacity
+	"winopacity.opacity": 240,
+
+	//terminal
+	"terminal.integrated.rendererType": "dom",
+
+	//materialTheme
+	"materialTheme.accent": "Orange"
+}
