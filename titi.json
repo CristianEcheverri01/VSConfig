@@ -9,6 +9,12 @@
 	//color comments
 	"editor.tokenColorCustomizations": {
 		"comments": "#dddd",
+		"variables": { "fontStyle": "italic", "foreground": "#02dcbe" },
+		"functions": { "fontStyle": "italic", "foreground": "#f2d958" },
+		"strings": { "fontStyle": "italic", "foreground": "#68f378" },
+		"keywords": { "fontStyle": "italic", "foreground": "#c555d2" },
+		"numbers": { "fontStyle": "italic bold", "foreground": "#e79513" },
+		"types": { "fontStyle": "italic", "foreground": "#e25a41" },
 		"textMateRules": [
 			{
 				"scope":["comment"],
