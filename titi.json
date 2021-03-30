@@ -17,15 +17,21 @@
 		"types": { "fontStyle": "italic", "foreground": "#e25a41" },
 		"textMateRules": [
 			{
-				"scope":["comment"],
+				"scope": ["comment"],
 				"settings": {
 					"foreground": "#888",
 					"fontStyle": "italic"
 				}
 			},
+			{
+				"scope": ["comment.block"],
+				"settings": {
+					"foreground": "#a379d4",
+					"fontStyle": "italic bold"
+				}
+			}
 		]
 	},
-
 	//window
 	"window.zoomLevel": 1,
 	"window.menuBarVisibility": "toggle",
@@ -35,8 +41,8 @@
 	"workbench.activityBar.visible": true,
 	//workbench theme
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Andromeda Italic Bordered",
-	//workbench custom color 
+	"workbench.colorTheme": "Andromeda Italic",
+	//workbench custom color
 	"workbench.colorCustomizations": {
 		//activityBar
 		"activityBarBadge.background": "#ff5733",
@@ -160,7 +166,59 @@
 
 	//terminal
 	"terminal.integrated.rendererType": "dom",
-
-	//materialTheme
-	"materialTheme.accent": "Orange"
+	"cSpell.language": ",es",
+	"cSpell.userWords": [
+		"Carousel",
+		"Ceballos",
+		"Creacion",
+		"Divi",
+		"Drawer",
+		"Echeverri",
+		"Furgon",
+		"Identificacion",
+		"Mante",
+		"Numeber",
+		"Pelicula",
+		"Pinocchio",
+		"Press",
+		"Reparacion",
+		"Sanguineo",
+		"Touchable",
+		"Tripulacion",
+		"Vehiculo",
+		"avion",
+		"cabezote",
+		"calificacion",
+		"clasificacion",
+		"codigo",
+		"conecction",
+		"conexion",
+		"deceleration",
+		"dessito",
+		"direccion",
+		"distance",
+		"eletrodomestico",
+		"getters",
+		"infinite",
+		"insercion",
+		"made",
+		"observacion",
+		"operacion",
+		"paging",
+		"pais",
+		"premium",
+		"profesion",
+		"props",
+		"religion",
+		"renderizado",
+		"setters",
+		"slider",
+		"splash",
+		"subtotal",
+		"telefono",
+		"titlesito",
+		"ubicacion",
+		"went",
+		"while"
+	]
 }
